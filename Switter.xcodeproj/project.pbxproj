@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF605C719764F440099166A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF605C619764F440099166A /* AppDelegate.swift */; };
+		3DF605C919764F440099166A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF605C819764F440099166A /* ViewController.swift */; };
+		3DF605CC19764F440099166A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF605CA19764F440099166A /* Main.storyboard */; };
+		3DF605CE19764F440099166A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF605CD19764F440099166A /* Images.xcassets */; };
+		3DF605DA19764F440099166A /* SwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF605D919764F440099166A /* SwitterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DF605D419764F440099166A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF605B919764F440099166A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF605C019764F440099166A;
+			remoteInfo = Switter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DF605C119764F440099166A /* Switter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Switter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF605C519764F440099166A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF605C619764F440099166A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DF605C819764F440099166A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DF605CB19764F440099166A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DF605CD19764F440099166A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DF605D319764F440099166A /* SwitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF605D819764F440099166A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF605D919764F440099166A /* SwitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF605BE19764F440099166A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF605D019764F440099166A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF605B819764F440099166A = {
+			isa = PBXGroup;
+			children = (
+				3DF605C319764F440099166A /* Switter */,
+				3DF605D619764F440099166A /* SwitterTests */,
+				3DF605C219764F440099166A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF605C219764F440099166A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF605C119764F440099166A /* Switter.app */,
+				3DF605D319764F440099166A /* SwitterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF605C319764F440099166A /* Switter */ = {
+			isa = PBXGroup;
+			children = (
+				3DF605C619764F440099166A /* AppDelegate.swift */,
+				3DF605C819764F440099166A /* ViewController.swift */,
+				3DF605CA19764F440099166A /* Main.storyboard */,
+				3DF605CD19764F440099166A /* Images.xcassets */,
+				3DF605C419764F440099166A /* Supporting Files */,
+			);
+			path = Switter;
+			sourceTree = "<group>";
+		};
+		3DF605C419764F440099166A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF605C519764F440099166A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DF605D619764F440099166A /* SwitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF605D919764F440099166A /* SwitterTests.swift */,
+				3DF605D719764F440099166A /* Supporting Files */,
+			);
+			path = SwitterTests;
+			sourceTree = "<group>";
+		};
+		3DF605D719764F440099166A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF605D819764F440099166A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF605C019764F440099166A /* Switter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF605DD19764F440099166A /* Build configuration list for PBXNativeTarget "Switter" */;
+			buildPhases = (
+				3DF605BD19764F440099166A /* Sources */,
+				3DF605BE19764F440099166A /* Frameworks */,
+				3DF605BF19764F440099166A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Switter;
+			productName = Switter;
+			productReference = 3DF605C119764F440099166A /* Switter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DF605D219764F440099166A /* SwitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF605E019764F440099166A /* Build configuration list for PBXNativeTarget "SwitterTests" */;
+			buildPhases = (
+				3DF605CF19764F440099166A /* Sources */,
+				3DF605D019764F440099166A /* Frameworks */,
+				3DF605D119764F440099166A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF605D519764F440099166A /* PBXTargetDependency */,
+			);
+			name = SwitterTests;
+			productName = SwitterTests;
+			productReference = 3DF605D319764F440099166A /* SwitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF605B919764F440099166A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Daniel Hammond";
+				TargetAttributes = {
+					3DF605C019764F440099166A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3DF605D219764F440099166A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3DF605C019764F440099166A;
+					};
+				};
+			};
+			buildConfigurationList = 3DF605BC19764F440099166A /* Build configuration list for PBXProject "Switter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF605B819764F440099166A;
+			productRefGroup = 3DF605C219764F440099166A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF605C019764F440099166A /* Switter */,
+				3DF605D219764F440099166A /* SwitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF605BF19764F440099166A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF605CC19764F440099166A /* Main.storyboard in Resources */,
+				3DF605CE19764F440099166A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF605D119764F440099166A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF605BD19764F440099166A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF605C919764F440099166A /* ViewController.swift in Sources */,
+				3DF605C719764F440099166A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF605CF19764F440099166A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF605DA19764F440099166A /* SwitterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF605D519764F440099166A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF605C019764F440099166A /* Switter */;
+			targetProxy = 3DF605D419764F440099166A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DF605CA19764F440099166A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF605CB19764F440099166A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DF605DB19764F440099166A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DF605DC19764F440099166A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF605DE19764F440099166A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Switter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DF605DF19764F440099166A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Switter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DF605E119764F440099166A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Switter.app/Switter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		3DF605E219764F440099166A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Switter.app/Switter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF605BC19764F440099166A /* Build configuration list for PBXProject "Switter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF605DB19764F440099166A /* Debug */,
+				3DF605DC19764F440099166A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF605DD19764F440099166A /* Build configuration list for PBXNativeTarget "Switter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF605DE19764F440099166A /* Debug */,
+				3DF605DF19764F440099166A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DF605E019764F440099166A /* Build configuration list for PBXNativeTarget "SwitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF605E119764F440099166A /* Debug */,
+				3DF605E219764F440099166A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF605B919764F440099166A /* Project object */;
+}
