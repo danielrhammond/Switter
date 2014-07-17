@@ -12,6 +12,8 @@
 		3DF605CC19764F440099166A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF605CA19764F440099166A /* Main.storyboard */; };
 		3DF605CE19764F440099166A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF605CD19764F440099166A /* Images.xcassets */; };
 		3DF605DA19764F440099166A /* SwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF605D919764F440099166A /* SwitterTests.swift */; };
+		3DF605E419764F5D0099166A /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF605E319764F5D0099166A /* TwitterClient.swift */; };
+		3DF605E61977A52C0099166A /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF605E51977A52C0099166A /* StreamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		3DF605D319764F440099166A /* SwitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF605D819764F440099166A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DF605D919764F440099166A /* SwitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitterTests.swift; sourceTree = "<group>"; };
+		3DF605E319764F5D0099166A /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		3DF605E51977A52C0099166A /* StreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				3DF605C619764F440099166A /* AppDelegate.swift */,
 				3DF605C819764F440099166A /* ViewController.swift */,
+				3DF605E51977A52C0099166A /* StreamViewController.swift */,
+				3DF605E319764F5D0099166A /* TwitterClient.swift */,
 				3DF605CA19764F440099166A /* Main.storyboard */,
 				3DF605CD19764F440099166A /* Images.xcassets */,
 				3DF605C419764F440099166A /* Supporting Files */,
@@ -208,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF605E61977A52C0099166A /* StreamViewController.swift in Sources */,
 				3DF605C919764F440099166A /* ViewController.swift in Sources */,
+				3DF605E419764F5D0099166A /* TwitterClient.swift in Sources */,
 				3DF605C719764F440099166A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
